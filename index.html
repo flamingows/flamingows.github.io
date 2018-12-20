@@ -1,41 +1,52 @@
+<!--<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cloudinary Tutorial</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="card">
+      <img src="http://fillmurray.com/g/300/300" id="img-preview" />
+      <label class="file-upload-container" for="file-upload">
+        <input id="file-upload" type="file" style="display:none;">
+        Select an Image
+      </label>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>-->
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link href="main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><!--JQuery-->
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script><!--JQueryUI-->
-  <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+  <title>God jul</title>
   </head>
   <body>
+    <!-- No hacking, thanks -->
     <div class="header" style="text-align:center;">
       <p>Elin & Harald</p>
-      <button id="upload">Upload</button>
-      <input type="file" id="input" />
+      <!--<button id="upload" s>Upload</button>-->
+      <label class="file-upload-container" for="file-upload" id="upload">
+        <input id="file-upload" type="file" style="display:none;">
+        Upload
+      </label>
     </div>
     <div class="image-feed">
       <div id="elin">
-        <p id="elin2"></p>
-        <img src="photos/1.jpg" id="test"></img>
-        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-        <img src="photos/1.jpg"></img>
-        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-        <img src="photos/1.jpg"></img>
-        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+        <img src="" id="imgPreview"></img>
       </div>
       <div id="harald">
-        <img src="photos/1.jpg"></img>
-        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-        <img src="photos/1.jpg"></img>
-        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-        <img src="photos/1.jpg"></img>
-        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+        <img></img>
       </div>
     </div>
     <!-- Scripts -->
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="script.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
