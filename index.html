@@ -13,10 +13,9 @@
     <div class="header" style="text-align:center;">
       <p>Elin & Harald</p>
       <button id="upload">Upload</button>
-      <input type="file" id="input" onchange="handleFiles(this.files)"/>
+      <input type="file" id="input" />
     </div>
     <div class="image-feed">
-      <script src="script.js"></script>
       <div id="elin">
         <p id="elin2"></p>
         <img src="photos/1.jpg" id="test"></img>
@@ -35,11 +34,8 @@
         <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
       </div>
     </div>
-    <!-- JQuery-->
-    <script type="text/javascript">
-      $("document").ready(function(){
-
-      });
-    </script>
+    <!-- Scripts -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
