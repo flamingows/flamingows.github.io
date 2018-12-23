@@ -21,6 +21,7 @@ fileUpload.addEventListener("change", function(event){
     console.log(res);
     console.log(res.data.secure_url);
     imgPreview.src = res.data.secure_url;
+
   }).catch(function(err) {
     console.error(err);
   });
